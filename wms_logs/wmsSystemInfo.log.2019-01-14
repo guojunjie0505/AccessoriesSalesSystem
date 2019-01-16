@@ -1,0 +1,56 @@
+2019-01-14 18:26:40,848 [ main:0 ] - [ INFO ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@532760d8: startup date [Mon Jan 14 18:26:40 CST 2019]; root of context hierarchy
+ 2019-01-14 18:26:41,233 [ main:385 ] - [ INFO ] Loading XML bean definitions from class path resource [mybatis-spring.xml]
+ 2019-01-14 18:26:42,043 [ main:1195 ] - [ WARN ] Skipping MapperFactoryBean with name 'customerInfoMapper' and 'kehaofei.com.sm.mapping.CustomerInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2019-01-14 18:26:42,043 [ main:1195 ] - [ WARN ] Skipping MapperFactoryBean with name 'goodsInfoMapper' and 'kehaofei.com.sm.mapping.GoodsInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2019-01-14 18:26:42,045 [ main:1197 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketDetailsMapper' and 'kehaofei.com.sm.mapping.SalesTicketDetailsMapper' mapperInterface. Bean already defined with the same name!
+ 2019-01-14 18:26:42,045 [ main:1197 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketInfoMapper' and 'kehaofei.com.sm.mapping.SalesTicketInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2019-01-14 18:26:42,045 [ main:1197 ] - [ WARN ] No MyBatis mapper was found in '[kehaofei.com.sm.mapping]' package. Please check your configuration.
+ 2019-01-14 18:26:42,061 [ main:1213 ] - [ INFO ] Loading properties file from class path resource [accessdb.properties]
+ 2019-01-14 18:26:42,154 [ MLog-Init-Reporter:1306 ] - [ INFO ] MLog clients using slf4j logging.
+ 2019-01-14 18:26:42,501 [ main:1653 ] - [ INFO ] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+ 2019-01-14 18:26:46,257 [ main:5409 ] - [ INFO ] |------ 初始化字体 ------|
+ 2019-01-14 18:26:55,488 [ AWT-EventQueue-0:14640 ] - [ INFO ] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge162a0l24uyjibn38e|1c93084c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.hxtt.sql.access.AccessDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge162a0l24uyjibn38e|1c93084c, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:access:///DataBase/peijian.mdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 40, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2019-01-14 18:26:58,110 [ AWT-EventQueue-0:17262 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	0,0
+ 2019-01-14 18:26:58,110 [ AWT-EventQueue-0:17262 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	0,0
+ 2019-01-14 18:26:58,111 [ AWT-EventQueue-0:17263 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	0,5
+ 2019-01-14 18:26:58,112 [ AWT-EventQueue-0:17264 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	0,5
+ 2019-01-14 18:26:58,159 [ AWT-EventQueue-0:17311 ] - [ INFO ] |--------获得编辑焦点-------|	0,5
+ 2019-01-14 18:26:59,973 [ AWT-EventQueue-0:19125 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,5
+ 2019-01-14 18:27:00,193 [ AWT-EventQueue-0:19345 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,5
+ 2019-01-14 18:27:01,043 [ AWT-EventQueue-0:20195 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	0,5
+ 2019-01-14 18:27:01,142 [ AWT-EventQueue-0:20294 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,5
+ 2019-01-14 18:27:01,240 [ AWT-EventQueue-0:20392 ] - [ INFO ] |--------失去编辑焦点-------|	0,5
+javax.swing.JTextField[,50,0,74x24,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=LEADING]
+ 2019-01-14 18:27:02,696 [ AWT-EventQueue-0:21848 ] - [ INFO ] windowClosed
+ 2019-01-14 18:27:02,696 [ AWT-EventQueue-0:21848 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	0,5
+ 2019-01-14 18:27:02,696 [ AWT-EventQueue-0:21848 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2019-01-14 18:27:02,698 [ AWT-EventQueue-0:21850 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	0,5
+ 2019-01-14 18:27:02,698 [ AWT-EventQueue-0:21850 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	0,5
+ 2019-01-14 18:27:02,698 [ AWT-EventQueue-0:21850 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	0,12
+ 2019-01-14 18:27:02,699 [ AWT-EventQueue-0:21851 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	0,12
+ 2019-01-14 18:27:02,749 [ AWT-EventQueue-0:21901 ] - [ INFO ] |--------获得编辑焦点-------|	0,12
+ 2019-01-14 18:27:06,149 [ AWT-EventQueue-0:25301 ] - [ INFO ] |--------失去编辑焦点-------|	0,12
+javax.swing.JTextField[NUMBER,650,0,74x24,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=CENTER]
+ 2019-01-14 18:27:06,348 [ AWT-EventQueue-0:25500 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	0,12
+ 2019-01-14 18:27:06,348 [ AWT-EventQueue-0:25500 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2019-01-14 18:27:06,467 [ AWT-EventQueue-0:25619 ] - [ INFO ] SalesTicketInfoModel [xs_hao=xsd-20190114-0001, kehu_no=000020, kehu_name=石长虎, kehu_pinyin=sch, kehu_tel= , xs_date=2019-01-14, xs_user=null, xs_moneyall=0.28, 
+
+salesTicketDetails=
+[	SalesTicketDetailsModel [xs_no=65834, xs_hao=xsd-20190114-0001, peij_no=000049, ck_name=ssz, xs_name=塑双罩, xs_code= , xs_brand= , xs_unit=个, xs_price=0.280, xs_num=1, xs_money=0.28, comment=, xs_place=null, xs_spec=null, xs_model=null, xs_roll=null, xs_pjlb=喷头, xs_date=null, xs_oldprice=null]
+]]
+ 2019-01-14 18:27:06,470 [ AWT-EventQueue-0:25622 ] - [ INFO ]  
+
+
+[65834, xsd-20190114-0001, 000049, 1, false, ssz, 塑双罩, 喷头,  ,  , 个, 0.280, 1, 0.28, ]
+ 2019-01-14 18:27:13,552 [ main:0 ] - [ INFO ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@532760d8: startup date [Mon Jan 14 18:27:13 CST 2019]; root of context hierarchy
+ 2019-01-14 18:27:13,618 [ main:66 ] - [ INFO ] Loading XML bean definitions from class path resource [mybatis-spring.xml]
+ 2019-01-14 18:27:14,145 [ main:593 ] - [ WARN ] Skipping MapperFactoryBean with name 'customerInfoMapper' and 'kehaofei.com.sm.mapping.CustomerInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2019-01-14 18:27:14,145 [ main:593 ] - [ WARN ] Skipping MapperFactoryBean with name 'goodsInfoMapper' and 'kehaofei.com.sm.mapping.GoodsInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2019-01-14 18:27:14,145 [ main:593 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketDetailsMapper' and 'kehaofei.com.sm.mapping.SalesTicketDetailsMapper' mapperInterface. Bean already defined with the same name!
+ 2019-01-14 18:27:14,146 [ main:594 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketInfoMapper' and 'kehaofei.com.sm.mapping.SalesTicketInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2019-01-14 18:27:14,146 [ main:594 ] - [ WARN ] No MyBatis mapper was found in '[kehaofei.com.sm.mapping]' package. Please check your configuration.
+ 2019-01-14 18:27:14,170 [ main:618 ] - [ INFO ] Loading properties file from class path resource [accessdb.properties]
+ 2019-01-14 18:27:14,269 [ MLog-Init-Reporter:717 ] - [ INFO ] MLog clients using slf4j logging.
+ 2019-01-14 18:27:14,538 [ main:986 ] - [ INFO ] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+ 2019-01-14 18:27:15,562 [ main:2010 ] - [ INFO ] |------ 初始化字体 ------|
+ 

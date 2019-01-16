@@ -1,0 +1,337 @@
+2018-04-13 08:53:16,062 [ main:0 ] - [ INFO ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@532760d8: startup date [Fri Apr 13 08:53:16 CST 2018]; root of context hierarchy
+ 2018-04-13 08:53:16,280 [ main:218 ] - [ INFO ] Loading XML bean definitions from class path resource [mybatis-spring.xml]
+ 2018-04-13 08:53:17,188 [ main:1126 ] - [ WARN ] Skipping MapperFactoryBean with name 'customerInfoMapper' and 'kehaofei.com.sm.mapping.CustomerInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 08:53:17,188 [ main:1126 ] - [ WARN ] Skipping MapperFactoryBean with name 'goodsInfoMapper' and 'kehaofei.com.sm.mapping.GoodsInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 08:53:17,189 [ main:1127 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketDetailsMapper' and 'kehaofei.com.sm.mapping.SalesTicketDetailsMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 08:53:17,189 [ main:1127 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketInfoMapper' and 'kehaofei.com.sm.mapping.SalesTicketInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 08:53:17,189 [ main:1127 ] - [ WARN ] No MyBatis mapper was found in '[kehaofei.com.sm.mapping]' package. Please check your configuration.
+ 2018-04-13 08:53:17,201 [ main:1139 ] - [ INFO ] Loading properties file from class path resource [accessdb.properties]
+ 2018-04-13 08:53:17,288 [ MLog-Init-Reporter:1226 ] - [ INFO ] MLog clients using slf4j logging.
+ 2018-04-13 08:53:17,563 [ main:1501 ] - [ INFO ] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+ 2018-04-13 08:53:18,487 [ main:2425 ] - [ INFO ] |------ 初始化字体 ------|
+ 2018-04-13 08:53:28,514 [ AWT-EventQueue-0:12452 ] - [ INFO ] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgecs89u1gasntnity6or|1c93084c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.hxtt.sql.access.AccessDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgecs89u1gasntnity6or|1c93084c, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:access:///DataBase/peijian.mdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 40, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2018-04-13 08:53:30,475 [ AWT-EventQueue-0:14413 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	0,0
+ 2018-04-13 08:53:30,475 [ AWT-EventQueue-0:14413 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	0,0
+ 2018-04-13 08:53:30,476 [ AWT-EventQueue-0:14414 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	0,5
+ 2018-04-13 08:53:30,477 [ AWT-EventQueue-0:14415 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	0,5
+ 2018-04-13 08:53:30,536 [ AWT-EventQueue-0:14474 ] - [ INFO ] |--------获得编辑焦点-------|	0,5
+ 2018-04-13 08:53:30,537 [ AWT-EventQueue-0:14475 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,5
+ 2018-04-13 08:53:34,797 [ AWT-EventQueue-0:18735 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,5
+ 2018-04-13 08:53:35,162 [ AWT-EventQueue-0:19100 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	0,5
+ 2018-04-13 08:53:35,292 [ AWT-EventQueue-0:19230 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,5
+ 2018-04-13 08:53:35,499 [ AWT-EventQueue-0:19437 ] - [ INFO ] |--------失去编辑焦点-------|	0,5
+javax.swing.JTextField[,50,0,74x24,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=LEADING]
+ 2018-04-13 08:53:38,911 [ AWT-EventQueue-0:22849 ] - [ INFO ] windowClosed
+ 2018-04-13 08:53:38,912 [ AWT-EventQueue-0:22850 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	0,5
+ 2018-04-13 08:53:38,912 [ AWT-EventQueue-0:22850 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 08:53:38,913 [ AWT-EventQueue-0:22851 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	0,5
+ 2018-04-13 08:53:38,913 [ AWT-EventQueue-0:22851 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	0,5
+ 2018-04-13 08:53:38,914 [ AWT-EventQueue-0:22852 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	0,12
+ 2018-04-13 08:53:38,915 [ AWT-EventQueue-0:22853 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	0,12
+ 2018-04-13 08:53:38,980 [ AWT-EventQueue-0:22918 ] - [ INFO ] |--------获得编辑焦点-------|	0,12
+ 2018-04-13 08:53:39,809 [ AWT-EventQueue-0:23747 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,12
+ 2018-04-13 08:53:40,210 [ AWT-EventQueue-0:24148 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,12
+ 2018-04-13 08:53:40,372 [ AWT-EventQueue-0:24310 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,12
+ 2018-04-13 08:53:40,996 [ AWT-EventQueue-0:24934 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	0,12
+ 2018-04-13 08:53:41,185 [ AWT-EventQueue-0:25123 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,12
+ 2018-04-13 08:53:41,186 [ AWT-EventQueue-0:25124 ] - [ INFO ] 判断当前数据新增一行
+ 2018-04-13 08:53:41,186 [ AWT-EventQueue-0:25124 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	0,12
+ 2018-04-13 08:53:41,186 [ AWT-EventQueue-0:25124 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 08:53:41,188 [ AWT-EventQueue-0:25126 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	0,12
+ 2018-04-13 08:53:41,188 [ AWT-EventQueue-0:25126 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	0,12
+ 2018-04-13 08:53:41,188 [ AWT-EventQueue-0:25126 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	1,5
+ 2018-04-13 08:53:41,189 [ AWT-EventQueue-0:25127 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	1,5
+ 2018-04-13 08:53:41,196 [ AWT-EventQueue-0:25134 ] - [ INFO ] |--------失去编辑焦点-------|	1,5
+javax.swing.JTextField[NUMBER,650,0,74x24,invalid,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=CENTER]
+ 2018-04-13 08:53:41,221 [ AWT-EventQueue-0:25159 ] - [ INFO ] |--------获得编辑焦点-------|	1,5
+ 2018-04-13 08:53:42,648 [ AWT-EventQueue-0:26586 ] - [ INFO ] |------单元格编辑时候的坐标------|	1,5
+ 2018-04-13 08:53:43,074 [ AWT-EventQueue-0:27012 ] - [ INFO ] |------单元格编辑时候的坐标------|	1,5
+ 2018-04-13 08:53:43,633 [ AWT-EventQueue-0:27571 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	1,5
+ 2018-04-13 08:53:43,692 [ AWT-EventQueue-0:27630 ] - [ INFO ] |------单元格编辑时候的坐标------|	1,5
+ 2018-04-13 08:53:43,734 [ AWT-EventQueue-0:27672 ] - [ INFO ] |--------失去编辑焦点-------|	1,5
+javax.swing.JTextField[,50,25,74x24,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=LEADING]
+ 2018-04-13 08:53:44,821 [ AWT-EventQueue-0:28759 ] - [ INFO ] windowClosed
+ 2018-04-13 08:53:44,822 [ AWT-EventQueue-0:28760 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	1,5
+ 2018-04-13 08:53:44,822 [ AWT-EventQueue-0:28760 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 08:53:44,824 [ AWT-EventQueue-0:28762 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	1,5
+ 2018-04-13 08:53:44,824 [ AWT-EventQueue-0:28762 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	1,5
+ 2018-04-13 08:53:44,825 [ AWT-EventQueue-0:28763 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	1,12
+ 2018-04-13 08:53:44,825 [ AWT-EventQueue-0:28763 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	1,12
+ 2018-04-13 08:53:44,879 [ AWT-EventQueue-0:28817 ] - [ INFO ] |--------获得编辑焦点-------|	1,12
+ 2018-04-13 08:53:46,372 [ AWT-EventQueue-0:30310 ] - [ INFO ] |------单元格编辑时候的坐标------|	1,12
+ 2018-04-13 08:53:46,533 [ AWT-EventQueue-0:30471 ] - [ INFO ] |------单元格编辑时候的坐标------|	1,12
+ 2018-04-13 08:53:46,710 [ AWT-EventQueue-0:30648 ] - [ INFO ] |------单元格编辑时候的坐标------|	1,12
+ 2018-04-13 08:53:48,372 [ AWT-EventQueue-0:32310 ] - [ INFO ] |--------失去编辑焦点-------|	1,12
+javax.swing.JTextField[NUMBER,650,25,74x24,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=CENTER]
+ 2018-04-13 08:53:48,497 [ AWT-EventQueue-0:32435 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	1,12
+ 2018-04-13 08:53:48,498 [ AWT-EventQueue-0:32436 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 08:53:48,620 [ AWT-EventQueue-0:32558 ] - [ INFO ] SalesTicketInfoModel [xs_hao=xsd-20180413-0001, kehu_no=000013, kehu_name=王涛, kehu_pinyin=wt, kehu_tel= , xs_date=2018-04-13, xs_user=null, xs_moneyall=75.00, 
+
+salesTicketDetails=
+[	SalesTicketDetailsModel [xs_no=65826, xs_hao=xsd-20180413-0001, peij_no=000042, ck_name=xz, xs_name=小罩, xs_code= , xs_brand= , xs_unit=个, xs_price=0.120, xs_num=100, xs_money=12.00, comment=, xs_place=null, xs_spec=null, xs_model=null, xs_roll=null, xs_pjlb=喷头, xs_date=null, xs_oldprice=null]
+, 	SalesTicketDetailsModel [xs_no=65827, xs_hao=xsd-20180413-0001, peij_no=000044, ck_name=dz, xs_name=大罩, xs_code= , xs_brand= , xs_unit=个, xs_price=0.210, xs_num=300, xs_money=63.00, comment=, xs_place=null, xs_spec=null, xs_model=null, xs_roll=null, xs_pjlb=喷头, xs_date=null, xs_oldprice=null]
+]]
+ 2018-04-13 08:53:48,627 [ AWT-EventQueue-0:32565 ] - [ INFO ]  
+
+
+[65826, xsd-20180413-0001, 000042, 1, false, xz, 小罩, 喷头,  ,  , 个, 0.120, 100, 12.00, ]
+ 2018-04-13 08:54:56,564 [ AWT-EventQueue-0:100502 ] - [ INFO ] |----------------当前选中的日期-----------------|	2018
+ 2018-04-13 09:00:23,913 [ main:0 ] - [ INFO ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@532760d8: startup date [Fri Apr 13 09:00:23 CST 2018]; root of context hierarchy
+ 2018-04-13 09:00:24,000 [ main:87 ] - [ INFO ] Loading XML bean definitions from class path resource [mybatis-spring.xml]
+ 2018-04-13 09:00:24,458 [ main:545 ] - [ WARN ] Skipping MapperFactoryBean with name 'customerInfoMapper' and 'kehaofei.com.sm.mapping.CustomerInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:00:24,458 [ main:545 ] - [ WARN ] Skipping MapperFactoryBean with name 'goodsInfoMapper' and 'kehaofei.com.sm.mapping.GoodsInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:00:24,458 [ main:545 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketDetailsMapper' and 'kehaofei.com.sm.mapping.SalesTicketDetailsMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:00:24,458 [ main:545 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketInfoMapper' and 'kehaofei.com.sm.mapping.SalesTicketInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:00:24,459 [ main:546 ] - [ WARN ] No MyBatis mapper was found in '[kehaofei.com.sm.mapping]' package. Please check your configuration.
+ 2018-04-13 09:00:24,476 [ main:563 ] - [ INFO ] Loading properties file from class path resource [accessdb.properties]
+ 2018-04-13 09:00:24,532 [ MLog-Init-Reporter:619 ] - [ INFO ] MLog clients using slf4j logging.
+ 2018-04-13 09:00:24,723 [ main:810 ] - [ INFO ] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+ 2018-04-13 09:00:26,282 [ main:2369 ] - [ INFO ] |------ 初始化字体 ------|
+ 2018-04-13 09:00:28,784 [ AWT-EventQueue-0:4871 ] - [ INFO ] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgecs89u1gb1thj10vuc7k|1c93084c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.hxtt.sql.access.AccessDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgecs89u1gb1thj10vuc7k|1c93084c, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:access:///DataBase/peijian.mdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 40, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2018-04-13 09:01:48,352 [ main:0 ] - [ INFO ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@532760d8: startup date [Fri Apr 13 09:01:48 CST 2018]; root of context hierarchy
+ 2018-04-13 09:01:48,481 [ main:129 ] - [ INFO ] Loading XML bean definitions from class path resource [mybatis-spring.xml]
+ 2018-04-13 09:01:48,845 [ main:493 ] - [ WARN ] Skipping MapperFactoryBean with name 'customerInfoMapper' and 'kehaofei.com.sm.mapping.CustomerInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:01:48,846 [ main:494 ] - [ WARN ] Skipping MapperFactoryBean with name 'goodsInfoMapper' and 'kehaofei.com.sm.mapping.GoodsInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:01:48,846 [ main:494 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketDetailsMapper' and 'kehaofei.com.sm.mapping.SalesTicketDetailsMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:01:48,846 [ main:494 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketInfoMapper' and 'kehaofei.com.sm.mapping.SalesTicketInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:01:48,846 [ main:494 ] - [ WARN ] No MyBatis mapper was found in '[kehaofei.com.sm.mapping]' package. Please check your configuration.
+ 2018-04-13 09:01:48,862 [ main:510 ] - [ INFO ] Loading properties file from class path resource [accessdb.properties]
+ 2018-04-13 09:01:48,911 [ MLog-Init-Reporter:559 ] - [ INFO ] MLog clients using slf4j logging.
+ 2018-04-13 09:01:49,085 [ main:733 ] - [ INFO ] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+ 2018-04-13 09:01:49,818 [ main:1466 ] - [ INFO ] |------ 初始化字体 ------|
+ 2018-04-13 09:01:55,995 [ AWT-EventQueue-0:7643 ] - [ INFO ] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgecs89u1gb3mkz1301quu|1c93084c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.hxtt.sql.access.AccessDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgecs89u1gb3mkz1301quu|1c93084c, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:access:///DataBase/peijian.mdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 40, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2018-04-13 09:02:42,754 [ main:0 ] - [ INFO ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@532760d8: startup date [Fri Apr 13 09:02:42 CST 2018]; root of context hierarchy
+ 2018-04-13 09:02:42,849 [ main:95 ] - [ INFO ] Loading XML bean definitions from class path resource [mybatis-spring.xml]
+ 2018-04-13 09:02:43,252 [ main:498 ] - [ WARN ] Skipping MapperFactoryBean with name 'customerInfoMapper' and 'kehaofei.com.sm.mapping.CustomerInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:02:43,252 [ main:498 ] - [ WARN ] Skipping MapperFactoryBean with name 'goodsInfoMapper' and 'kehaofei.com.sm.mapping.GoodsInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:02:43,252 [ main:498 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketDetailsMapper' and 'kehaofei.com.sm.mapping.SalesTicketDetailsMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:02:43,252 [ main:498 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketInfoMapper' and 'kehaofei.com.sm.mapping.SalesTicketInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:02:43,252 [ main:498 ] - [ WARN ] No MyBatis mapper was found in '[kehaofei.com.sm.mapping]' package. Please check your configuration.
+ 2018-04-13 09:02:43,268 [ main:514 ] - [ INFO ] Loading properties file from class path resource [accessdb.properties]
+ 2018-04-13 09:02:43,320 [ MLog-Init-Reporter:566 ] - [ INFO ] MLog clients using slf4j logging.
+ 2018-04-13 09:02:43,486 [ main:732 ] - [ INFO ] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+ 2018-04-13 09:02:44,213 [ main:1459 ] - [ INFO ] |------ 初始化字体 ------|
+ 2018-04-13 09:02:49,542 [ AWT-EventQueue-0:6788 ] - [ INFO ] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgecs89u1gb4skclsufjg|1c93084c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.hxtt.sql.access.AccessDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgecs89u1gb4skclsufjg|1c93084c, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:access:///DataBase/peijian.mdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 40, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2018-04-13 09:03:51,914 [ main:0 ] - [ INFO ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@532760d8: startup date [Fri Apr 13 09:03:51 CST 2018]; root of context hierarchy
+ 2018-04-13 09:03:52,028 [ main:114 ] - [ INFO ] Loading XML bean definitions from class path resource [mybatis-spring.xml]
+ 2018-04-13 09:03:52,371 [ main:457 ] - [ WARN ] Skipping MapperFactoryBean with name 'customerInfoMapper' and 'kehaofei.com.sm.mapping.CustomerInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:03:52,372 [ main:458 ] - [ WARN ] Skipping MapperFactoryBean with name 'goodsInfoMapper' and 'kehaofei.com.sm.mapping.GoodsInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:03:52,372 [ main:458 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketDetailsMapper' and 'kehaofei.com.sm.mapping.SalesTicketDetailsMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:03:52,372 [ main:458 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketInfoMapper' and 'kehaofei.com.sm.mapping.SalesTicketInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:03:52,372 [ main:458 ] - [ WARN ] No MyBatis mapper was found in '[kehaofei.com.sm.mapping]' package. Please check your configuration.
+ 2018-04-13 09:03:52,388 [ main:474 ] - [ INFO ] Loading properties file from class path resource [accessdb.properties]
+ 2018-04-13 09:03:52,440 [ MLog-Init-Reporter:526 ] - [ INFO ] MLog clients using slf4j logging.
+ 2018-04-13 09:03:52,633 [ main:719 ] - [ INFO ] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+ 2018-04-13 09:03:53,359 [ main:1445 ] - [ INFO ] |------ 初始化字体 ------|
+ 2018-04-13 09:03:55,629 [ AWT-EventQueue-0:3715 ] - [ INFO ] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgecs89u1gb69wg1t4es4p|1c93084c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.hxtt.sql.access.AccessDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgecs89u1gb69wg1t4es4p|1c93084c, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:access:///DataBase/peijian.mdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 40, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2018-04-13 09:04:06,216 [ AWT-EventQueue-0:14302 ] - [ INFO ] |----------------当前选中的日期-----------------|	2018
+ 2018-04-13 09:06:09,623 [ main:0 ] - [ INFO ] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@532760d8: startup date [Fri Apr 13 09:06:09 CST 2018]; root of context hierarchy
+ 2018-04-13 09:06:09,765 [ main:142 ] - [ INFO ] Loading XML bean definitions from class path resource [mybatis-spring.xml]
+ 2018-04-13 09:06:10,140 [ main:517 ] - [ WARN ] Skipping MapperFactoryBean with name 'customerInfoMapper' and 'kehaofei.com.sm.mapping.CustomerInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:06:10,140 [ main:517 ] - [ WARN ] Skipping MapperFactoryBean with name 'goodsInfoMapper' and 'kehaofei.com.sm.mapping.GoodsInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:06:10,141 [ main:518 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketDetailsMapper' and 'kehaofei.com.sm.mapping.SalesTicketDetailsMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:06:10,141 [ main:518 ] - [ WARN ] Skipping MapperFactoryBean with name 'salesTicketInfoMapper' and 'kehaofei.com.sm.mapping.SalesTicketInfoMapper' mapperInterface. Bean already defined with the same name!
+ 2018-04-13 09:06:10,141 [ main:518 ] - [ WARN ] No MyBatis mapper was found in '[kehaofei.com.sm.mapping]' package. Please check your configuration.
+ 2018-04-13 09:06:10,158 [ main:535 ] - [ INFO ] Loading properties file from class path resource [accessdb.properties]
+ 2018-04-13 09:06:10,217 [ MLog-Init-Reporter:594 ] - [ INFO ] MLog clients using slf4j logging.
+ 2018-04-13 09:06:10,412 [ main:789 ] - [ INFO ] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+ 2018-04-13 09:06:11,156 [ main:1533 ] - [ INFO ] |------ 初始化字体 ------|
+ 2018-04-13 09:06:13,156 [ AWT-EventQueue-0:3533 ] - [ INFO ] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgecs89u1gb987m1604ehh|1c93084c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.hxtt.sql.access.AccessDriver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgecs89u1gb987m1604ehh|1c93084c, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:access:///DataBase/peijian.mdb, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 40, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2018-04-13 09:06:20,547 [ AWT-EventQueue-0:10924 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	0,0
+ 2018-04-13 09:06:20,548 [ AWT-EventQueue-0:10925 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	0,0
+ 2018-04-13 09:06:20,548 [ AWT-EventQueue-0:10925 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	0,5
+ 2018-04-13 09:06:20,549 [ AWT-EventQueue-0:10926 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	0,5
+ 2018-04-13 09:06:20,589 [ AWT-EventQueue-0:10966 ] - [ INFO ] |--------获得编辑焦点-------|	0,5
+ 2018-04-13 09:06:23,299 [ AWT-EventQueue-0:13676 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,5
+ 2018-04-13 09:06:23,404 [ AWT-EventQueue-0:13781 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	0,5
+ 2018-04-13 09:06:23,533 [ AWT-EventQueue-0:13910 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,5
+ 2018-04-13 09:06:23,701 [ AWT-EventQueue-0:14078 ] - [ INFO ] |--------失去编辑焦点-------|	0,5
+javax.swing.JTextField[,50,0,74x24,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=LEADING]
+ 2018-04-13 09:06:24,500 [ AWT-EventQueue-0:14877 ] - [ INFO ] windowClosed
+ 2018-04-13 09:06:24,502 [ AWT-EventQueue-0:14879 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	0,5
+ 2018-04-13 09:06:24,503 [ AWT-EventQueue-0:14880 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 09:06:24,508 [ AWT-EventQueue-0:14885 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	0,5
+ 2018-04-13 09:06:24,509 [ AWT-EventQueue-0:14886 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	0,5
+ 2018-04-13 09:06:24,512 [ AWT-EventQueue-0:14889 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	0,12
+ 2018-04-13 09:06:24,513 [ AWT-EventQueue-0:14890 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	0,12
+ 2018-04-13 09:06:24,578 [ AWT-EventQueue-0:14955 ] - [ INFO ] |--------获得编辑焦点-------|	0,12
+ 2018-04-13 09:06:25,906 [ AWT-EventQueue-0:16283 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,12
+ 2018-04-13 09:06:26,022 [ AWT-EventQueue-0:16399 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,12
+ 2018-04-13 09:06:26,182 [ AWT-EventQueue-0:16559 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,12
+ 2018-04-13 09:06:26,895 [ AWT-EventQueue-0:17272 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	0,12
+ 2018-04-13 09:06:27,053 [ AWT-EventQueue-0:17430 ] - [ INFO ] |------单元格编辑时候的坐标------|	0,12
+ 2018-04-13 09:06:27,054 [ AWT-EventQueue-0:17431 ] - [ INFO ] 判断当前数据新增一行
+ 2018-04-13 09:06:27,055 [ AWT-EventQueue-0:17432 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	0,12
+ 2018-04-13 09:06:27,056 [ AWT-EventQueue-0:17433 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 09:06:27,062 [ AWT-EventQueue-0:17439 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	0,12
+ 2018-04-13 09:06:27,063 [ AWT-EventQueue-0:17440 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	0,12
+ 2018-04-13 09:06:27,065 [ AWT-EventQueue-0:17442 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	1,5
+ 2018-04-13 09:06:27,068 [ AWT-EventQueue-0:17445 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	1,5
+ 2018-04-13 09:06:27,094 [ AWT-EventQueue-0:17471 ] - [ INFO ] |--------失去编辑焦点-------|	1,5
+javax.swing.JTextField[NUMBER,650,0,74x24,invalid,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=CENTER]
+ 2018-04-13 09:06:27,131 [ AWT-EventQueue-0:17508 ] - [ INFO ] |--------获得编辑焦点-------|	1,5
+ 2018-04-13 09:06:28,161 [ AWT-EventQueue-0:18538 ] - [ INFO ] |------单元格编辑时候的坐标------|	1,5
+ 2018-04-13 09:06:28,377 [ AWT-EventQueue-0:18754 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	1,5
+ 2018-04-13 09:06:28,440 [ AWT-EventQueue-0:18817 ] - [ INFO ] |------单元格编辑时候的坐标------|	1,5
+ 2018-04-13 09:06:28,510 [ AWT-EventQueue-0:18887 ] - [ INFO ] |--------失去编辑焦点-------|	1,5
+javax.swing.JTextField[,50,25,74x24,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=LEADING]
+ 2018-04-13 09:06:29,800 [ AWT-EventQueue-0:20177 ] - [ INFO ] windowClosed
+ 2018-04-13 09:06:29,801 [ AWT-EventQueue-0:20178 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	1,5
+ 2018-04-13 09:06:29,801 [ AWT-EventQueue-0:20178 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 09:06:29,803 [ AWT-EventQueue-0:20180 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	1,5
+ 2018-04-13 09:06:29,803 [ AWT-EventQueue-0:20180 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	1,5
+ 2018-04-13 09:06:29,805 [ AWT-EventQueue-0:20182 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	1,12
+ 2018-04-13 09:06:29,807 [ AWT-EventQueue-0:20184 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	1,12
+ 2018-04-13 09:06:29,863 [ AWT-EventQueue-0:20240 ] - [ INFO ] |--------获得编辑焦点-------|	1,12
+ 2018-04-13 09:06:31,118 [ AWT-EventQueue-0:21495 ] - [ INFO ] |------单元格编辑时候的坐标------|	1,12
+ 2018-04-13 09:06:31,294 [ AWT-EventQueue-0:21671 ] - [ INFO ] |------单元格编辑时候的坐标------|	1,12
+ 2018-04-13 09:06:31,439 [ AWT-EventQueue-0:21816 ] - [ INFO ] |------单元格编辑时候的坐标------|	1,12
+ 2018-04-13 09:06:32,036 [ AWT-EventQueue-0:22413 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	1,12
+ 2018-04-13 09:06:32,194 [ AWT-EventQueue-0:22571 ] - [ INFO ] |------单元格编辑时候的坐标------|	1,12
+ 2018-04-13 09:06:32,195 [ AWT-EventQueue-0:22572 ] - [ INFO ] 判断当前数据新增一行
+ 2018-04-13 09:06:32,195 [ AWT-EventQueue-0:22572 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	1,12
+ 2018-04-13 09:06:32,196 [ AWT-EventQueue-0:22573 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 09:06:32,198 [ AWT-EventQueue-0:22575 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	1,12
+ 2018-04-13 09:06:32,198 [ AWT-EventQueue-0:22575 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	1,12
+ 2018-04-13 09:06:32,199 [ AWT-EventQueue-0:22576 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	2,5
+ 2018-04-13 09:06:32,200 [ AWT-EventQueue-0:22577 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	2,5
+ 2018-04-13 09:06:32,201 [ AWT-EventQueue-0:22578 ] - [ INFO ] |--------失去编辑焦点-------|	2,5
+javax.swing.JTextField[NUMBER,650,25,74x24,invalid,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=CENTER]
+ 2018-04-13 09:06:32,239 [ AWT-EventQueue-0:22616 ] - [ INFO ] |--------获得编辑焦点-------|	2,5
+ 2018-04-13 09:06:33,387 [ AWT-EventQueue-0:23764 ] - [ INFO ] |------单元格编辑时候的坐标------|	2,5
+ 2018-04-13 09:06:35,421 [ AWT-EventQueue-0:25798 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	2,5
+ 2018-04-13 09:06:35,539 [ AWT-EventQueue-0:25916 ] - [ INFO ] |------单元格编辑时候的坐标------|	2,5
+ 2018-04-13 09:06:35,629 [ AWT-EventQueue-0:26006 ] - [ INFO ] |--------失去编辑焦点-------|	2,5
+javax.swing.JTextField[,50,50,74x24,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=LEADING]
+ 2018-04-13 09:06:36,916 [ AWT-EventQueue-0:27293 ] - [ INFO ] windowClosed
+ 2018-04-13 09:06:36,917 [ AWT-EventQueue-0:27294 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	2,5
+ 2018-04-13 09:06:36,918 [ AWT-EventQueue-0:27295 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 09:06:36,920 [ AWT-EventQueue-0:27297 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	2,5
+ 2018-04-13 09:06:36,920 [ AWT-EventQueue-0:27297 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	2,5
+ 2018-04-13 09:06:36,922 [ AWT-EventQueue-0:27299 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	2,12
+ 2018-04-13 09:06:36,924 [ AWT-EventQueue-0:27301 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	2,12
+ 2018-04-13 09:06:37,010 [ AWT-EventQueue-0:27387 ] - [ INFO ] |--------获得编辑焦点-------|	2,12
+ 2018-04-13 09:06:38,536 [ AWT-EventQueue-0:28913 ] - [ INFO ] |------单元格编辑时候的坐标------|	2,12
+ 2018-04-13 09:06:38,622 [ AWT-EventQueue-0:28999 ] - [ INFO ] |------单元格编辑时候的坐标------|	2,12
+ 2018-04-13 09:06:38,788 [ AWT-EventQueue-0:29165 ] - [ INFO ] |------单元格编辑时候的坐标------|	2,12
+ 2018-04-13 09:06:40,732 [ AWT-EventQueue-0:31109 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	2,12
+ 2018-04-13 09:06:40,783 [ AWT-EventQueue-0:31160 ] - [ INFO ] |------单元格编辑时候的坐标------|	2,12
+ 2018-04-13 09:06:43,208 [ AWT-EventQueue-0:33585 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	2,12
+ 2018-04-13 09:06:43,373 [ AWT-EventQueue-0:33750 ] - [ INFO ] |------单元格编辑时候的坐标------|	2,12
+ 2018-04-13 09:06:43,373 [ AWT-EventQueue-0:33750 ] - [ INFO ] 判断当前数据新增一行
+ 2018-04-13 09:06:43,375 [ AWT-EventQueue-0:33752 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	2,12
+ 2018-04-13 09:06:43,376 [ AWT-EventQueue-0:33753 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 09:06:43,382 [ AWT-EventQueue-0:33759 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	2,12
+ 2018-04-13 09:06:43,383 [ AWT-EventQueue-0:33760 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	2,12
+ 2018-04-13 09:06:43,384 [ AWT-EventQueue-0:33761 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	3,5
+ 2018-04-13 09:06:43,386 [ AWT-EventQueue-0:33763 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	3,5
+ 2018-04-13 09:06:43,388 [ AWT-EventQueue-0:33765 ] - [ INFO ] |--------失去编辑焦点-------|	3,5
+javax.swing.JTextField[NUMBER,650,50,74x24,invalid,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=CENTER]
+ 2018-04-13 09:06:43,444 [ AWT-EventQueue-0:33821 ] - [ INFO ] |--------获得编辑焦点-------|	3,5
+ 2018-04-13 09:06:44,113 [ AWT-EventQueue-0:34490 ] - [ INFO ] |------单元格编辑时候的坐标------|	3,5
+ 2018-04-13 09:06:44,968 [ AWT-EventQueue-0:35345 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	3,5
+ 2018-04-13 09:06:45,125 [ AWT-EventQueue-0:35502 ] - [ INFO ] |------单元格编辑时候的坐标------|	3,5
+ 2018-04-13 09:06:45,174 [ AWT-EventQueue-0:35551 ] - [ INFO ] |--------失去编辑焦点-------|	3,5
+javax.swing.JTextField[,50,75,74x24,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=LEADING]
+ 2018-04-13 09:06:46,940 [ AWT-EventQueue-0:37317 ] - [ INFO ] windowClosed
+ 2018-04-13 09:06:46,941 [ AWT-EventQueue-0:37318 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	3,5
+ 2018-04-13 09:06:46,941 [ AWT-EventQueue-0:37318 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 09:06:46,944 [ AWT-EventQueue-0:37321 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	3,5
+ 2018-04-13 09:06:46,946 [ AWT-EventQueue-0:37323 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	3,5
+ 2018-04-13 09:06:46,949 [ AWT-EventQueue-0:37326 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	3,12
+ 2018-04-13 09:06:46,951 [ AWT-EventQueue-0:37328 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	3,12
+ 2018-04-13 09:06:47,017 [ AWT-EventQueue-0:37394 ] - [ INFO ] |--------获得编辑焦点-------|	3,12
+ 2018-04-13 09:06:48,451 [ AWT-EventQueue-0:38828 ] - [ INFO ] |------单元格编辑时候的坐标------|	3,12
+ 2018-04-13 09:06:48,981 [ AWT-EventQueue-0:39358 ] - [ INFO ] |------单元格编辑时候的坐标------|	3,12
+ 2018-04-13 09:06:49,131 [ AWT-EventQueue-0:39508 ] - [ INFO ] |------单元格编辑时候的坐标------|	3,12
+ 2018-04-13 09:06:49,749 [ AWT-EventQueue-0:40126 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	3,12
+ 2018-04-13 09:06:49,875 [ AWT-EventQueue-0:40252 ] - [ INFO ] |------单元格编辑时候的坐标------|	3,12
+ 2018-04-13 09:06:49,876 [ AWT-EventQueue-0:40253 ] - [ INFO ] 判断当前数据新增一行
+ 2018-04-13 09:06:49,876 [ AWT-EventQueue-0:40253 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	3,12
+ 2018-04-13 09:06:49,876 [ AWT-EventQueue-0:40253 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 09:06:49,877 [ AWT-EventQueue-0:40254 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	3,12
+ 2018-04-13 09:06:49,877 [ AWT-EventQueue-0:40254 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	3,12
+ 2018-04-13 09:06:49,878 [ AWT-EventQueue-0:40255 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	4,5
+ 2018-04-13 09:06:49,878 [ AWT-EventQueue-0:40255 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	4,5
+ 2018-04-13 09:06:49,878 [ AWT-EventQueue-0:40255 ] - [ INFO ] |--------失去编辑焦点-------|	4,5
+javax.swing.JTextField[NUMBER,650,75,74x24,invalid,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=CENTER]
+ 2018-04-13 09:06:49,906 [ AWT-EventQueue-0:40283 ] - [ INFO ] |--------获得编辑焦点-------|	4,5
+ 2018-04-13 09:06:50,472 [ AWT-EventQueue-0:40849 ] - [ INFO ] |------单元格编辑时候的坐标------|	4,5
+ 2018-04-13 09:06:50,672 [ AWT-EventQueue-0:41049 ] - [ INFO ] |------单元格编辑时候的坐标------|	4,5
+ 2018-04-13 09:06:50,812 [ AWT-EventQueue-0:41189 ] - [ INFO ] |------单元格编辑时候的坐标------|	4,5
+ 2018-04-13 09:06:51,095 [ AWT-EventQueue-0:41472 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	4,5
+ 2018-04-13 09:06:51,233 [ AWT-EventQueue-0:41610 ] - [ INFO ] |------单元格编辑时候的坐标------|	4,5
+ 2018-04-13 09:06:51,248 [ AWT-EventQueue-0:41625 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	4,5
+ 2018-04-13 09:06:51,249 [ AWT-EventQueue-0:41626 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 09:06:51,315 [ AWT-EventQueue-0:41692 ] - [ INFO ] |--------失去编辑焦点-------|	-1,-1
+javax.swing.JTextField[,50,100,74x24,invalid,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=LEADING]
+ 2018-04-13 09:06:52,442 [ AWT-EventQueue-0:42819 ] - [ INFO ] 弹窗回车事件！！！！
+ 2018-04-13 09:06:52,451 [ AWT-EventQueue-0:42828 ] - [ INFO ] windowDeactivated
+ 2018-04-13 09:06:52,452 [ AWT-EventQueue-0:42829 ] - [ INFO ] windowClosed
+ 2018-04-13 09:06:52,452 [ AWT-EventQueue-0:42829 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	4,5
+ 2018-04-13 09:06:52,453 [ AWT-EventQueue-0:42830 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	4,5
+ 2018-04-13 09:06:52,453 [ AWT-EventQueue-0:42830 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	4,5
+ 2018-04-13 09:06:52,453 [ AWT-EventQueue-0:42830 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	4,5
+ 2018-04-13 09:06:52,492 [ AWT-EventQueue-0:42869 ] - [ INFO ] |--------获得编辑焦点-------|	4,5
+ 2018-04-13 09:06:54,574 [ AWT-EventQueue-0:44951 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	4,5
+ 2018-04-13 09:06:54,642 [ AWT-EventQueue-0:45019 ] - [ INFO ] |------单元格编辑时候的坐标------|	4,5
+ 2018-04-13 09:06:54,681 [ AWT-EventQueue-0:45058 ] - [ INFO ] |--------失去编辑焦点-------|	4,5
+javax.swing.JTextField[,50,100,74x24,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=LEADING]
+ 2018-04-13 09:06:56,458 [ AWT-EventQueue-0:46835 ] - [ INFO ] windowClosed
+ 2018-04-13 09:06:56,459 [ AWT-EventQueue-0:46836 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	4,5
+ 2018-04-13 09:06:56,459 [ AWT-EventQueue-0:46836 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 09:06:56,461 [ AWT-EventQueue-0:46838 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	4,5
+ 2018-04-13 09:06:56,462 [ AWT-EventQueue-0:46839 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	4,5
+ 2018-04-13 09:06:56,462 [ AWT-EventQueue-0:46839 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	4,12
+ 2018-04-13 09:06:56,463 [ AWT-EventQueue-0:46840 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	4,12
+ 2018-04-13 09:06:56,557 [ AWT-EventQueue-0:46934 ] - [ INFO ] |--------获得编辑焦点-------|	4,12
+ 2018-04-13 09:06:58,043 [ AWT-EventQueue-0:48420 ] - [ INFO ] |------单元格编辑时候的坐标------|	4,12
+ 2018-04-13 09:06:58,124 [ AWT-EventQueue-0:48501 ] - [ INFO ] |------单元格编辑时候的坐标------|	4,12
+ 2018-04-13 09:06:58,291 [ AWT-EventQueue-0:48668 ] - [ INFO ] |------单元格编辑时候的坐标------|	4,12
+ 2018-04-13 09:06:59,390 [ AWT-EventQueue-0:49767 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	4,12
+ 2018-04-13 09:06:59,534 [ AWT-EventQueue-0:49911 ] - [ INFO ] |------单元格编辑时候的坐标------|	4,12
+ 2018-04-13 09:06:59,534 [ AWT-EventQueue-0:49911 ] - [ INFO ] 判断当前数据新增一行
+ 2018-04-13 09:06:59,534 [ AWT-EventQueue-0:49911 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	4,12
+ 2018-04-13 09:06:59,534 [ AWT-EventQueue-0:49911 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 09:06:59,535 [ AWT-EventQueue-0:49912 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	4,12
+ 2018-04-13 09:06:59,535 [ AWT-EventQueue-0:49912 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	4,12
+ 2018-04-13 09:06:59,536 [ AWT-EventQueue-0:49913 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	5,5
+ 2018-04-13 09:06:59,536 [ AWT-EventQueue-0:49913 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	5,5
+ 2018-04-13 09:06:59,537 [ AWT-EventQueue-0:49914 ] - [ INFO ] |--------失去编辑焦点-------|	5,5
+javax.swing.JTextField[NUMBER,650,100,74x24,invalid,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=CENTER]
+ 2018-04-13 09:06:59,576 [ AWT-EventQueue-0:49953 ] - [ INFO ] |--------获得编辑焦点-------|	5,5
+ 2018-04-13 09:07:01,434 [ AWT-EventQueue-0:51811 ] - [ INFO ] |------单元格编辑时候的坐标------|	5,5
+ 2018-04-13 09:07:01,840 [ AWT-EventQueue-0:52217 ] - [ INFO ] |------表格单元格编辑模型------|	stopCellEditing	5,5
+ 2018-04-13 09:07:01,978 [ AWT-EventQueue-0:52355 ] - [ INFO ] |------单元格编辑时候的坐标------|	5,5
+ 2018-04-13 09:07:02,055 [ AWT-EventQueue-0:52432 ] - [ INFO ] |--------失去编辑焦点-------|	5,5
+javax.swing.JTextField[,50,125,74x24,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=LEADING]
+ 2018-04-13 09:07:03,777 [ AWT-EventQueue-0:54154 ] - [ INFO ] windowClosed
+ 2018-04-13 09:07:03,779 [ AWT-EventQueue-0:54156 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	5,5
+ 2018-04-13 09:07:03,780 [ AWT-EventQueue-0:54157 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 09:07:03,782 [ AWT-EventQueue-0:54159 ] - [ INFO ] |------表格单元格编辑模型------|	isCellEditable	5,5
+ 2018-04-13 09:07:03,783 [ AWT-EventQueue-0:54160 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	5,5
+ 2018-04-13 09:07:03,783 [ AWT-EventQueue-0:54160 ] - [ INFO ] |------表格单元格编辑模型------|	getTableCellEditorComponent	5,12
+ 2018-04-13 09:07:03,784 [ AWT-EventQueue-0:54161 ] - [ INFO ] |------表格单元格编辑模型------|	addCellEditorListener	5,12
+ 2018-04-13 09:07:03,855 [ AWT-EventQueue-0:54232 ] - [ INFO ] |--------获得编辑焦点-------|	5,12
+ 2018-04-13 09:07:05,846 [ AWT-EventQueue-0:56223 ] - [ INFO ] |------单元格编辑时候的坐标------|	5,12
+ 2018-04-13 09:07:05,914 [ AWT-EventQueue-0:56291 ] - [ INFO ] |------单元格编辑时候的坐标------|	5,12
+ 2018-04-13 09:07:06,038 [ AWT-EventQueue-0:56415 ] - [ INFO ] |------单元格编辑时候的坐标------|	5,12
+ 2018-04-13 09:07:08,171 [ AWT-EventQueue-0:58548 ] - [ INFO ] |--------失去编辑焦点-------|	5,12
+javax.swing.JTextField[NUMBER,650,125,74x24,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=com.sun.java.swing.plaf.windows.XPStyle$XPFillBorder@5d0bf09b,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=javax.swing.plaf.ColorUIResource[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=3,right=2],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=0,g=120,b=215],columns=0,columnWidth=0,command=,horizontalAlignment=CENTER]
+ 2018-04-13 09:07:08,314 [ AWT-EventQueue-0:58691 ] - [ INFO ] |------表格单元格编辑模型------|	getCellEditorValue	5,12
+ 2018-04-13 09:07:08,314 [ AWT-EventQueue-0:58691 ] - [ INFO ] |------表格单元格编辑模型------|	removeCellEditorListener
+ 2018-04-13 09:07:08,394 [ AWT-EventQueue-0:58771 ] - [ INFO ] SalesTicketInfoModel [xs_hao=xsd-20180413-0002, kehu_no=000027, kehu_name=王守东, kehu_pinyin=wsd, kehu_tel= , xs_date=2018-04-13, xs_user=null, xs_moneyall=4300.00, 
+
+salesTicketDetails=
+[	SalesTicketDetailsModel [xs_no=65828, xs_hao=xsd-20180413-0002, peij_no=000009, ck_name=bsx, xs_name=白扇形, xs_code= , xs_brand= , xs_unit=个, xs_price=0.150, xs_num=200, xs_money=30.00, comment=, xs_place=null, xs_spec=null, xs_model=null, xs_roll=null, xs_pjlb=喷头, xs_date=null, xs_oldprice=null]
+, 	SalesTicketDetailsModel [xs_no=65829, xs_hao=xsd-20180413-0002, peij_no=000006, ck_name=2hbd, xs_name=2号白单, xs_code= , xs_brand= , xs_unit=个, xs_price=0.120, xs_num=400, xs_money=48.00, comment=, xs_place=null, xs_spec=null, xs_model=null, xs_roll=null, xs_pjlb=喷头, xs_date=null, xs_oldprice=null]
+, 	SalesTicketDetailsModel [xs_no=65830, xs_hao=xsd-20180413-0002, peij_no=000311, ck_name=1d5wb, xs_name=1顶5弯把, xs_code=50, xs_brand=生锈不退, xs_unit=根, xs_price=2.200, xs_num=500, xs_money=1100.00, comment=, xs_place=null, xs_spec=null, xs_model=null, xs_roll=null, xs_pjlb=配件, xs_date=null, xs_oldprice=null]
+, 	SalesTicketDetailsModel [xs_no=65831, xs_hao=xsd-20180413-0002, peij_no=000034, ck_name=tdbfs, xs_name=特大白F双, xs_code= , xs_brand= , xs_unit=个, xs_price=0.260, xs_num=500, xs_money=130.00, comment=, xs_place=null, xs_spec=null, xs_model=null, xs_roll=null, xs_pjlb=喷头, xs_date=null, xs_oldprice=null]
+, 	SalesTicketDetailsModel [xs_no=65832, xs_hao=xsd-20180413-0002, peij_no=000103, ck_name=dgs, xs_name=短钢三, xs_code=200, xs_brand= , xs_unit=个, xs_price=4.800, xs_num=600, xs_money=2880.00, comment=, xs_place=null, xs_spec=null, xs_model=null, xs_roll=null, xs_pjlb=喷头, xs_date=null, xs_oldprice=null]
+, 	SalesTicketDetailsModel [xs_no=65833, xs_hao=xsd-20180413-0002, peij_no=000007, ck_name=1hbd, xs_name=1号白单, xs_code= , xs_brand= , xs_unit=个, xs_price=0.160, xs_num=700, xs_money=112.00, comment=, xs_place=null, xs_spec=null, xs_model=null, xs_roll=null, xs_pjlb=喷头, xs_date=null, xs_oldprice=null]
+]]
+ 2018-04-13 09:07:08,399 [ AWT-EventQueue-0:58776 ] - [ INFO ]  
+
+
+[65828, xsd-20180413-0002, 000009, 1, false, bsx, 白扇形, 喷头,  ,  , 个, 0.150, 200, 30.00, ]
+ 
